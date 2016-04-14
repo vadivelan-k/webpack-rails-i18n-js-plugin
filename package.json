@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "glob": "^6.0.1",
-    "i18n-js": "https://github.com/idagds/i18n-js",
+    "i18n-js": "https://github.com/idagds/i18n-js/archive/v3.0.0.rc13.tar.gz",
     "js-yaml": "^3.4.6",
     "lodash": "^3.10.1"
   }
