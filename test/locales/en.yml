@@ -1,0 +1,30 @@
+en:
+  hello: Hello World!
+  shallow: :deep
+  deep: The ocean is pretty deep, isn't it!
+
+  paid: "You were paid %{price}"
+  paid_with_vat: "You were paid %{price} (incl. VAT %{vat})"
+  booleans:
+    yes: true
+    no: false
+  greetings:
+    stranger: Hello stranger!
+    name: "Hello {{name}}!"
+  profile:
+    details: "{{name}} is {{age}}-years old"
+  inbox:
+    one: "You have {{count}} message"
+    other: "You have {{count}} messages"
+    zero: You have no messages
+  number:
+    human:
+      storage_units:
+          units:
+            byte:
+                one: Byte
+                other: Bytes
+            kb: KB
+            mb: MB
+            gb: GB
+            tb: TB

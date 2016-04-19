@@ -29,3 +29,22 @@ console.log(I18n.translate('hello'))
 ```
 
 More info about client API you can found at https://github.com/fnando/i18n-js
+
+## Testing
+
+#### Browser
+
+- run
+  - `npm install`
+  - `npm test`  
+
+
+- Point your browser to `http://localhost:8080/webpack-dev-server/bundle`.
+
+#### Node
+
+- run
+  - `npm install`
+  - `npm run test-cli` or `npm run test-ci`
+
+More info about webpack testing can be found at https://webpack.github.io/docs/testing.html

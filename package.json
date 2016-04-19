@@ -15,5 +15,18 @@
     "i18n-js": "https://github.com/idagds/i18n-js/archive/v3.0.0.rc14.tar.gz",
     "js-yaml": "^3.4.6",
     "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4",
+    "mocha-loader": "^0.7.1",
+    "react": "^15.0.1",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "test": "webpack-dev-server --config ./test/webpack.config.js",
+    "test-cli": "webpack test/translate_spec.js /tmp/testBundle.js --config test/webpack-cli.config.js; mocha /tmp/testBundle.js -R dot",
+    "test-ci": "webpack test/translate_spec.js /tmp/testBundle.js --config test/webpack-cli.config.js; mocha /tmp/testBundle.js -R tap"
   }
 }
