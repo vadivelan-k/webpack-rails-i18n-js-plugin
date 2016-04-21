@@ -1,5 +1,7 @@
 # webpack-rails-i18n-js-plugin
 
+[![Build Status](https://travis-ci.org/holyxiaoxin/webpack-rails-i18n-js-plugin.svg?branch=master)](https://travis-ci.org/holyxiaoxin/webpack-rails-i18n-js-plugin)
+
 ## Usage
 ```js
 // webpack.config.js
