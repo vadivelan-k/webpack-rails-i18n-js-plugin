@@ -4,7 +4,7 @@ var I18n = require("i18n");
 describe("Translate", function(){
 
   it("returns translation for single scope", function(){
-    expect(I18n.t("hello")).equal("Hello World!");
+    expect(I18n.t("hello")).equal("Hello World!!");
   });
 
   it("returns missing message translation for invalid scope", function(){
