@@ -5,7 +5,7 @@ module.exports = function (options) {
   var browser = options.browser;
 
   return {
-    entry: path.join(browser ? 'mocha!' : '', __dirname, '/translate_spec.js'),
+    entry: path.join(browser ? 'mocha-loader!' : '', __dirname, '/translate_spec.js'),
     devtool: 'eval',
     plugins: [
         new WebpackRailsI18nJS({

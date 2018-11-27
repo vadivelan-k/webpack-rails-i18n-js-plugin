@@ -18,11 +18,12 @@
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^2.3.4",
-    "mocha-loader": "^0.7.1",
+    "mocha": "^5.2.0",
+    "mocha-loader": "^2.0.0",
     "react": "^15.0.1",
-    "webpack": "^1.12.6",
-    "webpack-dev-server": "^1.12.1"
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "3.1.10"
   },
   "scripts": {
     "test": "webpack-dev-server --config ./test/webpack.config.js",
